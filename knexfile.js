@@ -6,7 +6,7 @@ module.exports = {
 
   development: {
     client: 'pg',
-    connection: 'postgres://localhost/sticker-mania'
+    connection: 'sofielange98://localhost/dynamic-rhythm'
   },
   production: {
     client: 'pg',

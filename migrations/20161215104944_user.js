@@ -4,6 +4,7 @@ exports.up = function(knex, Promise) {
     table.increments();
     table.text('email').unique().notNullable();
     table.text('password').notNullable();
+    table.text('fave_service').notNullable();
     table.datetime('date').notNullable();
     table.boolean('is_active').notNullable().defaultTo(true);
   });

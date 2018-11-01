@@ -6,12 +6,14 @@ exports.seed = (knex, Promise) => {
             id: 1,
             email: 'berto.ort@gmail.com',
             password: 'pineapple',
+            fave_service: 'spotify',
             created_at: new Date()
           },
           {
             id: 2,
-            email: 'hello@cjr.co.de',
+            email: 'hello@world.com',
             password: 'keyboard_cat',
+            fave_service: 'google play',
             created_at: new Date()
           }
         ]
